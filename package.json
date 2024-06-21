@@ -3,12 +3,45 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@elastic/elasticsearch": "^8.13.0",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.12",
+    "@mui/icons-material": "^5.15.12",
+    "@mui/material": "^5.15.12",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.10",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "assert": "^2.1.0",
+    "async_hooks": "^1.0.0",
+    "browserify-zlib": "^0.2.0",
+    "buffer": "^6.0.3",
+    "console-browserify": "^1.2.0",
+    "crypto-browserify": "^3.12.0",
+    "diagnostics_channel": "^1.1.0",
+    "https-browserify": "^1.0.0",
+    "markdown-to-jsx": "^7.4.1",
+    "mui": "^0.0.1",
+    "net": "^1.0.2",
+    "openai": "^4.31.0",
+    "os-browserify": "^0.3.0",
+    "path-browserify": "^1.0.1",
+    "perf_hooks": "^0.0.1",
+    "querystring-es3": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
     "react-scripts": "5.0.1",
+    "serpapi": "^2.1.0",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
+    "stream-http": "^3.2.0",
+    "styled-components": "^6.1.8",
+    "tls": "^0.0.1",
+    "url": "^0.11.3",
+    "util": "^0.12.5",
+    "utils": "^0.3.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -34,5 +67,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
